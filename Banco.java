@@ -13,9 +13,8 @@ import java.util.List;
 
 public class Banco {
 
-    private
-    String nome;
-    List<Conta> contas;
+    private String nome;
+    private List<Conta> contas;
 
     public Banco(String nome, List<Conta> contas) {
         this.nome = nome;
